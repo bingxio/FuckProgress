@@ -1,7 +1,6 @@
 # FuckProgress
 #### A highly customized loading box, use kotlin in android library
 [Blog](http://blog.xyiio.cn/)
-[中文简介]()
 
 ##  Screenshot
 ![](https://github.com/Turaiiao/FuckProgress/blob/master/screenshot/Screenshot_2018-06-16-12-00-44-278_cn.xyiio.fuck.png)
@@ -10,6 +9,7 @@
 
 ## How to use it
 #### Step 1. Add the JitPack repository to your build file
+[中文简介]()
 Add it in your root build.gradle at the end of repositories:
 ```
 allprojects {
