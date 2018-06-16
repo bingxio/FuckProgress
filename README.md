@@ -24,10 +24,10 @@ dependencies {
 }
 ```
 
-#### Step 3.Use in code
+#### Step 3.Using a simple method in the code
 ```kotlin
 FuckProgress(this).light("Loading...")
 FuckProgress(this).dark("Loading...")
 ```
 
-#### More
+## More functions and methods
