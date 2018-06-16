@@ -24,8 +24,10 @@ dependencies {
 }
 ```
 
-#### Step 3
+#### Step 3.Use in code
 ```kotlin
 FuckProgress(this).light("Loading...")
 FuckProgress(this).dark("Loading...")
 ```
+
+#### More
