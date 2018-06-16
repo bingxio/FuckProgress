@@ -48,6 +48,7 @@ val progress = FuckProgress(this)
     progress.messageTextSize = 15F
     progress.progressColor = Color.RED
     progress.backgroundColor = Color.BLACK
+    progress.canCancel = false
     progress.show()
 ```
 #### If you use second methods, you can turn it off like this.
