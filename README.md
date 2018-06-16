@@ -22,7 +22,7 @@ allprojects {
 #### Step 2. Add the dependency
 ```
 dependencies {
-    implementation 'com.github.Turaiiao:FuckProgress:0.0.1'
+    implementation 'com.github.Turaiiao:FuckProgress:0.0.2'
 }
 ```
 
@@ -40,7 +40,7 @@ FuckProgress(this)
      .setContentTextSize(15F)
      .setProgressColor(Color.RED)
      .setBackgroundColor(Color.BLACK)
-     ..setCancel(false)
+     .setCancel(false)
      .show()
      
 val progress = FuckProgress(this)
@@ -52,7 +52,7 @@ val progress = FuckProgress(this)
     progress.canCancel = false
     progress.show()
 ```
-#### you can turn it off like this.
+#### If ``cancel = false``, you can call this method to close.
 ```kotlin
 progress.dismiss()
 ```
