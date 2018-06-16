@@ -20,7 +20,7 @@ allprojects {
 #### 2. 在 ``app``级别的``build.gradle``添加 FuckProgress 地址并引用到你的项目
 ```
 dependencies {
-    implementation 'com.github.Turaiiao:FuckProgress:0.0.1'
+    implementation 'com.github.Turaiiao:FuckProgress:0.0.2'
 }
 ```
 
@@ -38,6 +38,7 @@ FuckProgress(this)
      .setContentTextSize(15F)
      .setProgressColor(Color.RED)
      .setBackgroundColor(Color.BLACK)
+     .setCancel(false)
      .show()
      
 val progress = FuckProgress(this)
@@ -46,9 +47,10 @@ val progress = FuckProgress(this)
     progress.messageTextSize = 15F
     progress.progressColor = Color.RED
     progress.backgroundColor = Color.BLACK
+    progress.canCancel = false
     progress.show()
 ```
-#### 如果使用第二种，可以调用这个方法关闭
+#### 如果 ``cancel = false`` 可以调用这个方法关闭
 ```kotlin
 progress.dismiss()
 ```
