@@ -76,6 +76,11 @@ class FuckProgress(context: Context) {
         return this
     }
 
+    fun setCancel(canCel: Boolean) : FuckProgress {
+        canCancel = canCel
+        return this
+    }
+
     fun light(msg: String) {
         messageText = msg
         show()
