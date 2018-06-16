@@ -1,15 +1,14 @@
 # FuckProgress
-#### A highly customized loading box, use kotlin in android library
-[MyBlog](http://blog.xyiio.cn/)
+#### 一个高度定制的 Android Progress
+[我的博客](http://blog.xyiio.cn/)
 
-##  Screenshot
+##  截图
 ![](https://github.com/Turaiiao/FuckProgress/blob/master/screenshot/Screenshot_2018-06-16-12-00-44-278_cn.xyiio.fuck.png)
 ![](https://github.com/Turaiiao/FuckProgress/blob/master/screenshot/Screenshot_2018-06-16-12-01-05-840_cn.xyiio.fuck.png)
 ![](https://github.com/Turaiiao/FuckProgress/blob/master/screenshot/Screenshot_2018-06-16-12-01-23-680_cn.xyiio.fuck.png)
 
-## How to use it
-#### Step 1. Add the JitPack repository to your build file
-Add it in your root build.gradle at the end of repositories:
+## 怎么使用它
+#### 1.添加 JitPack 仓库地址在你的根目录 ``build.gradle``
 ```
 allprojects {
     repositories {
@@ -18,20 +17,20 @@ allprojects {
     }
 }
 ```
-#### Step 2. Add the dependency
+#### 2. 在 ``app``级别的``build.gradle``添加 FuckProgress 地址并引用到你的项目
 ```
 dependencies {
     implementation 'com.github.Turaiiao:FuckProgress:0.0.1'
 }
 ```
 
-#### Step 3.Using a simple method in the code
+#### 3.简单的使用方法
 ```kotlin
 FuckProgress(this).light("Loading...")
 FuckProgress(this).dark("Loading...")
 ```
 
-## More functions and methods
+## 一些函数和方法
 ```kotlin
 FuckProgress(this)
      .setContent("Loading...")
@@ -49,12 +48,12 @@ val progress = FuckProgress(this)
     progress.backgroundColor = Color.BLACK
     progress.show()
 ```
-#### If you use second methods, you can turn it off like this.
+#### 如果使用第二种，可以调用这个方法关闭
 ```kotlin
 progress.dismiss()
 ```
 
-##### Welcome Star, Fork, Issues!
+##### 欢迎 Star, Fork, Issues!
 
 ### License
 ```
