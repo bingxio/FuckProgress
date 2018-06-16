@@ -1,6 +1,6 @@
 # FuckProgress
 #### A highly customized loading box, use kotlin in android library
-[Blog](http://blog.xyiio.cn/)
+[MyBlog](http://blog.xyiio.cn/)
 
 ##  Screenshot
 ![](https://github.com/Turaiiao/FuckProgress/blob/master/screenshot/Screenshot_2018-06-16-12-00-44-278_cn.xyiio.fuck.png)
