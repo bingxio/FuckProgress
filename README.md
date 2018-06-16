@@ -40,6 +40,7 @@ FuckProgress(this)
      .setContentTextSize(15F)
      .setProgressColor(Color.RED)
      .setBackgroundColor(Color.BLACK)
+     ..setCancel(false)
      .show()
      
 val progress = FuckProgress(this)
@@ -51,7 +52,7 @@ val progress = FuckProgress(this)
     progress.canCancel = false
     progress.show()
 ```
-#### If you use second methods, you can turn it off like this.
+#### you can turn it off like this.
 ```kotlin
 progress.dismiss()
 ```
