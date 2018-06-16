@@ -23,3 +23,9 @@ dependencies {
     implementation 'com.github.Turaiiao:FuckProgress:0.0.1'
 }
 ```
+
+#### Step 3
+```kotlin
+FuckProgress(this).light("Loading...")
+FuckProgress(this).dark("Loading...")
+```
