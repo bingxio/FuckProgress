@@ -22,14 +22,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         findViewById<Button>(R.id.simple_2_show).setOnClickListener(this)
         findViewById<Button>(R.id.simple_3_show).setOnClickListener(this)
 
-
-        val progress = FuckProgress(this)
-        progress.messageText = "Loading..."
-        progress.messageTextColor = Color.RED
-        progress.messageTextSize = 15F
-        progress.progressColor = Color.RED
-        progress.backgroundColor = Color.BLACK
-        progress.show()
     }
 
     override fun onClick(p0: View?) {
@@ -59,6 +51,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 fuckProgressC?.progressColor = Color.WHITE
                 fuckProgressC?.messageTextColor = Color.WHITE
                 fuckProgressC?.messageText = "Loading..."
+                fuckProgressC?.canCancel = false
                 fuckProgressC?.show()
 
                 Handler().postDelayed( {

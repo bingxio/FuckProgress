@@ -16,6 +16,7 @@ import android.widget.TextView
  * author: Turaiiao
  * date: 2018/6/15 20:38
  * email: 1171840237@qq.com
+ * ver: 0.0.2
  */
 @SuppressLint("InflateParams")
 class FuckProgress(context: Context) {
@@ -34,6 +35,7 @@ class FuckProgress(context: Context) {
     var messageTextSize : Float? = 15F
     var progressColor : Int? = Color.parseColor("#E91E63")
     var backgroundColor : Int? = Color.parseColor("#FFFFFF")
+    var canCancel : Boolean? = true
 
     init {
         this.context = context
@@ -103,6 +105,7 @@ class FuckProgress(context: Context) {
 
         builder?.setView(view)
         dialog = builder?.create()
+        dialog!!.setCancelable(canCancel!!)
         dialog!!.show()
     }
 
