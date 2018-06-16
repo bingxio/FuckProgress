@@ -1,2 +1,4 @@
 # FuckProgress
-#### 一个高度定制的加载框
+#### A highly customized loading box, use kotlin in android library
+
+##  Screenshot
